@@ -65,7 +65,7 @@ nav a:hover {
 }
 .c1 {
     background-color: #ED4C5C;
-    width: 100%;
+    width: 1440px;
     height: 657px;
 
 }
@@ -234,7 +234,7 @@ border-radius: 8px;
 #lastSec {
 /* Bg */
 position: absolute;
-width: 100%;
+width: 1440px;
 height: 657px;
 left: 0px;
 top: 1314px;
@@ -330,7 +330,7 @@ background: #FFFFFF;
 footer {
 
     position: absolute;
-    width: 100%;
+    width: 1440px;
     top:1971px;
     height: 80px;
     background: #ED4C5C;
