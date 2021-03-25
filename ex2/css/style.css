@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header, main, footer, nav , section {
+    display: block;
+}
+header {
+    width: 100%;
+    background-color: #ED4C5C;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    height:1940px;
+}
+nav {
+/* Navbar */
+
+
+position: absolute;
+width: 445px;
+height: 22px;
+padding-left: 50px;
+padding-top: 10px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+button span {
+    color:#ED4C5C;
+}
+nav a {
+    padding:7px;
+    color:white;
+    text-decoration: none;
+}
+nav a:hover {
+    color:grey;
+    text-decoration: none;
+}
+#logo span {
+    padding-left: 35px;
+    font-size: 18px;
+
+}
+#logo {
+    background-image: url('../images/cloud.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 51.45px;
+    line-height: 110px;
+    color:white;
+    text-decoration: none;
+}
+.c1 {
+    background-color: #ED4C5C;
+    width: 100%;
+    height: 657px;
+
+}
+#cover {
+    position: absolute;
+    width: 445px;
+    height: 311px;
+    left: 90px;
+    top: 196px;
+    
+    background: url(.jpg), #C4C4C4;
+    border-radius: 15px;
+}
+#cover img {
+    width: 445px;
+    height:311px;
+}
+#c2 {
+    padding-left: 50px;
+    width: 445px;
+}
+#c2 h2 {
+
+/* Easy to Use Cloud Budget Management Software */
+
+
+position: absolute;
+width: 445px;
+height: 89px;
+left: 50px;
+top: 713px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 43px;
+
+color: #000000;
+}
+#c2 p {
+
+    position: absolute;
+    width: 445px;
+    height: 83px;
+    left: 50px;
+    top: 773px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+    
+    text-align: justify;
+    
+    color: #000000;
+}
+#c2 a {
+/* Learn More */
+
+
+position: absolute;
+width: 85px;
+height: 26.28px;
+left: 50px;
+top: 875px;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+
+text-align: justify;
+
+color: #ED4C5C;
+}
+button {
+/* Rectangle 6 */
+
+
+position: absolute;
+width: 160px;
+height: 50px;
+left: 51px;
+top: 552px;
+
+background: #FFFFFF;
+border-radius: 6px;
+}
+#c3 {
+    padding-top:300px;
+}
+
+#leftPic {
+    width: 350px;
+    height: 248px;
+    margin-left: 50px;
+    top: 1002px;
+    border-radius: 8px;
+}
+#middlePic {
+    width: 350px;
+    height: 248px;
+    margin-left: 30px;
+    top: 1002px;
+    border-radius: 8px;
+}
+#rightPic {
+    width: 350px;
+    height: 248px;
+    margin-left:30px;
+    background: url(.jpg), #FFFFFF;
+    border-radius: 8px;
+}
+.bgPicLeft {
+position:absolute;
+width: 350px;
+height: 40px;
+margin-top:-42px;
+margin-left: 50px;
+background: #FFFFFF;
+box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+}
+
+.bgPicMiddle {
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    left: 434px;
+    margin-top: -42px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    }
+
+
+.bgPicRight {
+    position: absolute;   
+    width: 350px;
+    height: 40px;
+    left:818px;
+    margin-top:-42px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+#c3 a {
+    position:absolute;
+    padding-top:10px;
+    padding-left:55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-decoration: none;
+    color: #ED4C5C;
+}
+#lastSec {
+/* Bg */
+position: absolute;
+width: 100%;
+height: 657px;
+left: 0px;
+top: 1314px;
+
+background: #F5F4F4;
+}
+#lastSec h2 {
+width: 300px;
+height: 47px;
+padding-left:50px;
+padding-top:57px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 43px;
+
+color: #000000;
+
+}
+#rectangleLeft {
+/* Rectangle 7 */
+position: absolute;
+width: 255px;
+height: 226px;
+margin-left: 50px;
+margin-top:56px;
+background: #FFFFFF;
+}
+#rectangleSecond {
+    width: 255px;
+    height: 226px;
+    margin-top:56px;
+    margin-left:335px;
+    background: #FFFFFF;
+}
+#rectangleThird {
+    width: 255px;
+    margin-top: -226px;
+    margin-left: 620px;
+    height: 226px;
+    background: #FFFFFF;
+}
+#rectangleFourth {
+    width: 255px;
+    margin-top: -226px;
+    margin-left: 905px;
+    height: 226px;
+    background: #FFFFFF;
+}
+#lastSec img {
+    width: auto;
+    height: 60px;
+    position: absolute;
+    padding-top:55px;
+    padding-left:90px;
+    
+}
+#lastSec a {
+    text-decoration: none;
+}
+#lastSec span {
+    position: absolute;
+    width: 113px;
+    height: 22px;
+    padding-top:120px;
+    padding-left:65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #101010;
+}
+#lastSec p {
+
+    width: 191px;
+    height: 51px;
+    padding-top:140px;
+    padding-left:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+}
+footer {
+
+    position: absolute;
+    width: 100%;
+    top:1971px;
+    height: 80px;
+    background: #ED4C5C;
+}
+footer span {
+    position: absolute;
+width: 610px;
+height: 28px;
+left: 264px;
+top:30px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+}
+footer img {
+    height: 32px;
+    width:auto;
+    padding-top:25px;
+}
+.playstore {
+    padding-left:50px;
+}
+.appstore {
+    padding-left: 25px;
+}
+.windows {
+    padding-left:25px;
+}
