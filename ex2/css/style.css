@@ -96,7 +96,7 @@ position: absolute;
 width: 445px;
 height: 89px;
 left: 50px;
-top: 713px;
+padding-top: 56px;
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 600;
@@ -111,8 +111,7 @@ color: #000000;
     width: 445px;
     height: 83px;
     left: 50px;
-    top: 773px;
-    
+    padding-top:145px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -159,14 +158,21 @@ background: #FFFFFF;
 border-radius: 6px;
 }
 #c3 {
-    padding-top:300px;
+    
+position: absolute;
+width: 1440px;
+height: 657px;
+left: 0px;
+top: 657px;
+
+background: #FFFFFF;
 }
 
 #leftPic {
     width: 350px;
     height: 248px;
     margin-left: 50px;
-    top: 1002px;
+    padding-top: 300px;
     border-radius: 8px;
 }
 #middlePic {
@@ -238,7 +244,6 @@ width: 1440px;
 height: 657px;
 left: 0px;
 top: 1314px;
-
 background: #F5F4F4;
 }
 #lastSec h2 {
