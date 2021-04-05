@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header, main, footer, nav , section {
+    display: block;
+    
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    position: absolute;
+}
+#wrapper {
+    width: 1000px;
+    margin: 0px auto;
+}
+#logo {
+    background-image: url('../images/logo.png');
+    width: 90px;
+    height: 90px;
+    top:59px;
+    left:462px;
+    position:absolute;
+}
+#up {
+    background-color: #d6d6d6;
+    width:100%;
+    position:absolute;
+    height:192px;
+    top:0px;
+    left:0px;
+}
+nav {
+    z-index: 21;
+    background-color: black;
+    width:100%;
+    height: 62px;
+    top:192px;
+    left:0px;
+    position: absolute;
+}
+nav.l2 {
+    all: unset;
+    background-color: black;
+    width: 146px;;
+    height: 758px;
+    top:192px;
+    left:0px;
+    position: absolute;
+}
+ul {
+    position:absolute;
+    top:11px;
+    left:39px;
+    height: 40px;
+    width: 699px;
+}
+ul.l2 {
+    all:unset;
+    left:0px;
+    width: 146px;
+    position:absolute;
+}
+ul.navCenter {
+    border:solid 1px red;
+}
+a {
+    text-decoration: none;
+}
+li {
+    text-align: center;
+    display: inline-block;
+    float: left;
+    position: relative;
+    height:40px;
+    width: 233px;
+    color:white;
+    
+}
+li.l2 {
+    all:unset;
+    display: block;
+    width: 146px;
+    height: 58px;
+}
+li#selected {
+    background-color: #2f96b4;
+}
+.navText {
+    margin-top:12px;
+}
+.navTextL2 {
+    all:unset;
+    position:relative;
+    top:21px;
+    left:6px;
+}
+li:hover {
+    color: red;
+}
+#wrapper {
+    width:1000px;
+    margin: 0px auto;
+}
+main {
+    width: 756px;
+    top:254px;
+    left:0px;
+    position: absolute;
+    height:696px;
+}
+main.l2 {
+    all:unset;
+    position:absolute;
+    background-color: white;
+    left:146px;
+    top:192px;
+    height:758px;
+    width:854px;
+
+}
+section.leftSideL2 {
+    width:257px;
+    height:757px;
+    position:absolute;
+    background-color: #eeeeee;
+}
+.squareTopLeftL2 {
+    left:22px;
+    top:22px;
+    height:324px;
+    width:270px;
+    background-color: #468847;
+    position:relative;
+}
+.squareBottomLeftL2 {
+    left:22px;
+    width:270px;
+    height:412px;
+    top:370px;
+    position:absolute;
+    background-color: #468847;
+}
+.squareBottomRightL2 {
+    left:308px;
+    width:270px;
+    height: 364px;
+    top:300px;
+    position:absolute;
+    background-color: #468847;
+}
+.squareTopRightL2 {
+    left:308px;
+    top:22px;
+    height:254px;
+    width:270px;
+    background-color: #468847;
+    position:absolute;
+}
+section.rightSideL2 {
+    width:597px;
+    left:257px;
+    height:757px;
+    position:absolute;
+    background-color: white;    
+}
+aside {
+    background-color: #eeeeee;
+    left:756px;
+    position: absolute;
+    top:254px;
+    width: 244px;
+    height: 696px;
+}
+.squareLeft {
+    position: absolute;
+    width: 100px;
+    height:100px;
+    background-color: #b94a48;
+}
+.squareRight {
+    position: absolute;
+    left:135px;
+    width: 100px;
+    height:100px;
+    background-color:#b94a48;
+}
+.squareLeftDown {
+    position: absolute;
+    top:135px;
+    width: 100px;
+    height:100px;
+    background-color:#b94a48;
+}
+.squareRightDown {
+    position: absolute;
+    left:135px;
+    width: 100px;
+    top:135px;
+    height:100px;
+    background-color: #b94a48;
+}
+.group {
+    position:absolute;
+    height: 235px;
+    width: 235px;
+    left:39px;
+    top:24px;
+}
+.group2 {
+    position:absolute;
+    left:497px;
+    top:437px;
+    height: 235px;
+    width: 235px;
+}
+.group3 {
+    top:510px;
+    left:11px;
+    position:absolute;
+    height: 235px;
+    width: 235px;
+}
+#squareUnique {
+    left:81px;
+    top:200px;
+    position: absolute;
+    width: 148px;
+    height:59px;
+    background-color: #b94a48;
+}
+footer {
+    height:50px;
+    top:950px;
+    left:0px;
+    width: 100%;
+    position:absolute;
+    background-color: #d6d6d6;
+}
+footer.l2 {
+    all:unset;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height:50px;
+    width: 100%;
+    background-color: #d6d6d6;
+}
