@@ -48,6 +48,29 @@ body {
     position:absolute;
     background-color: #355723;
 }
+.squarePurpleLeftL3 {
+    width: 333px;
+    height:348px;
+    position:absolute;
+    top:348px;
+    background-color: #b38df7;
+}
+.squarePurpleMiddleL3 {
+    width: 333px;
+    height:348px;
+    left:333px;
+    position:absolute;
+    top:348px;
+    background-color: #6334e3;
+}
+.squarePurpleRightL3 {
+    width: 333px;
+    height:348px;
+    left:666px;
+    position:absolute;
+    top:348px;
+    background-color: #2e1572;
+}
 nav {
     background-color: black;
     width:100%;
