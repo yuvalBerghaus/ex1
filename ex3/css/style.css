@@ -28,6 +28,26 @@ body {
     height:192px;
     position: absolute;
 }
+.squareGreenLeftL3 {
+    width: 333px;
+    height:348px;
+    position:absolute;
+    background-color: #62c462;
+}
+.squareGreenMiddleL3 {
+    width: 333px;
+    height:348px;
+    left:333px;
+    position:absolute;
+    background-color: #629c44;
+}
+.squareGreenRightL3 {
+    width: 333px;
+    height:348px;
+    left:666px;
+    position:absolute;
+    background-color: #355723;
+}
 nav {
     background-color: black;
     width:100%;
