@@ -8,12 +8,11 @@ header, main, footer, nav , section {
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    position: absolute;
 }
 #wrapper {
-    width: 1000px;
     margin: 0px auto;
+    width: 1000px;
+    position:relative;
 }
 #logo {
     background-image: url('../images/logo.png');
@@ -26,13 +25,10 @@ body {
 #up {
     background-color: #d6d6d6;
     width:100%;
-    position:absolute;
     height:192px;
-    top:0px;
-    left:0px;
+    position: absolute;
 }
 nav {
-    z-index: 21;
     background-color: black;
     width:100%;
     height: 62px;
@@ -69,8 +65,8 @@ a {
     text-decoration: none;
 }
 li {
+    list-style: none;
     text-align: center;
-    display: inline-block;
     float: left;
     position: relative;
     height:40px;
