@@ -132,6 +132,9 @@ li#selected {
     top:21px;
     left:6px;
 }
+.navCenter {
+
+}
 li:hover {
     color: red;
 }
@@ -257,6 +260,8 @@ aside {
     position:absolute;
     height: 235px;
     width: 235px;
+    
+
 }
 #squareUnique {
     left:81px;
