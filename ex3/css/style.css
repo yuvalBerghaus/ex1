@@ -103,6 +103,7 @@ ul.l2 {
 }
 a {
     text-decoration: none;
+    color:white;
 }
 li {
     list-style: none;
@@ -116,6 +117,7 @@ li {
 }
 li.l2 {
     all:unset;
+    color:white;
     display: block;
     width: 146px;
     height: 58px;
@@ -131,9 +133,6 @@ li#selected {
     position:relative;
     top:21px;
     left:6px;
-}
-.navCenter {
-
 }
 li:hover {
     color: red;
@@ -170,7 +169,6 @@ section.leftSideL2 {
     top:22px;
     height:324px;
     width:270px;
-    background-color: #468847;
     position:relative;
 }
 .squareBottomLeftL2 {
@@ -179,7 +177,6 @@ section.leftSideL2 {
     height:412px;
     top:370px;
     position:absolute;
-    background-color: #468847;
 }
 .squareBottomRightL2 {
     left:308px;
@@ -187,14 +184,12 @@ section.leftSideL2 {
     height: 364px;
     top:300px;
     position:absolute;
-    background-color: #468847;
 }
 .squareTopRightL2 {
     left:308px;
     top:22px;
     height:254px;
     width:270px;
-    background-color: #468847;
     position:absolute;
 }
 section.rightSideL2 {
@@ -216,21 +211,18 @@ aside {
     position: absolute;
     width: 100px;
     height:100px;
-    background-color: #b94a48;
 }
 .squareRight {
     position: absolute;
     left:135px;
     width: 100px;
     height:100px;
-    background-color:#b94a48;
 }
 .squareLeftDown {
     position: absolute;
     top:135px;
     width: 100px;
     height:100px;
-    background-color:#b94a48;
 }
 .squareRightDown {
     position: absolute;
@@ -238,7 +230,12 @@ aside {
     width: 100px;
     top:135px;
     height:100px;
+}
+#attributeL1 {
     background-color: #b94a48;
+}
+#attributeL2 {
+    background-color: #468847;
 }
 .group {
     position:absolute;
