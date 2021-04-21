@@ -5,10 +5,10 @@
 header, main, footer, nav , section {
     display: block; 
 }
-/* @viewport {
+ @viewport {
     width:480px;
     zoom:1;
-} */
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -64,11 +64,11 @@ nav.l2 {
     left:0px;
     position: absolute;
 }
-ul {
-    padding-top:5px;
+#layout3 ul {
+
 }
 #layout1 ul {
-    padding-top:5px;
+    padding-top:11px;
     margin-left:39px;
 }
 ul.l2 {
@@ -99,7 +99,6 @@ li.l2 {
 }
 li#selected {
     background-color: #2f96b4;
-    margin-top:6px;
 }
 .navText {
     line-height:40px;
@@ -266,6 +265,13 @@ div.g1 {
     height:50px;
     width: 100%;
     background-color: #d6d6d6;
+}
+#layout3 li{
+    width: 222px;
+    height: 62px;
+}
+#layout3 .navText {
+    line-height: 63px;
 }
 .plus {
     background-image: url('../images/plus.png');
