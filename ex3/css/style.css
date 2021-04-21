@@ -105,13 +105,13 @@ li#selected {
     line-height:40px;
 }
 .navTextL2 {
-    all:unset;
-    position:relative;
-    top:21px;
-    left:6px;
+    position: relative;
+    top: 10px;
+    left: 6px;
+    line-height: 40px;
 }
-li:hover {
-    color: red;
+a div:hover {
+    color:red;
 }
 main.l2 {
     all:unset;
