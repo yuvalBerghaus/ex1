@@ -1,13 +1,21 @@
 let i = 0
+let colors = []
 function change(idInitial , index) { // onClick on any rectangle
     let m_index = Number(index);
+    sectionID = this.document.getElementById(idInitial);
     imageAddress = this.document.getElementById(idInitial).getElementsByTagName("div")[0];
-            if(imageAddress.className == 'resize' && (m_index % 3) != 0)
+            if(imageAddress.className == 'resize' && (m_index % 3) != 0) {
                 imageAddress.className = null;
-            else if(imageAddress.className == 'resize' && m_index % 3 == 0)
+                sectionID.style.backgroundColor = colors[m_index];
+            }
+            else if(imageAddress.className == 'resize' && m_index % 3 == 0) {
                 imageAddress.className = "star";
-            else 
-                imageAddress.className = "resize";
+                sectionID.style.backgroundColor = colors[m_index];   
+            }
+            else {
+               imageAddress.className = "resize";
+                sectionID.style.backgroundColor = "white";   
+            }
 }
 function incIndex() { // function called When another index is added by pressing the plus key
     let main = document.getElementById("mainl3");
@@ -17,13 +25,14 @@ function incIndex() { // function called When another index is added by pressing
 function addRect(main) { // This function adds another rectangle
     let idInitial = "sectionSqaure"+i;
     let newElement = document.createElement("section");
+    let color = getRandomColor();
+    let divPlus = document.createElement("div");
     newElement.id = idInitial;
     newElement.className = "block";
-    let color = getRandomColor();
     newElement.style.backgroundColor = color;
+    colors.push(color);
     console.log(newElement);
     main.appendChild(newElement);
-    let divPlus = document.createElement("div");
     if(!i) {
         divPlus.className = "plus";
         divPlus.setAttribute('onclick','incIndex()');
@@ -49,9 +58,8 @@ function init() { // The first function call when page is loaded
     let main = document.getElementById("mainl3");
     let str = "Berghaus";
     let rectNum = str.length*2;
-    for(; i < rectNum ; i++) {
+    for(; i < rectNum ; i++)
         addRect(main);
-    }
 }
 
 
