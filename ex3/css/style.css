@@ -123,6 +123,10 @@ main.l2 {
 }
 main.index {
     position:relative;
+    background-color: #ffffff;
+    width: 75.6%;
+    height: 696px;
+    display: inline-block;
 }
 section.leftSideL2 {
     width:257px;

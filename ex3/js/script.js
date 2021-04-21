@@ -4,11 +4,11 @@ function change(idInitial , index) { // onClick on any rectangle
     let m_index = Number(index);
     sectionID = this.document.getElementById(idInitial);
     imageAddress = this.document.getElementById(idInitial).getElementsByTagName("div")[0];
-            if(imageAddress.className == 'resize' && (m_index % 3) != 0) {
+            if(imageAddress.className == 'resize' && ((m_index+1) % 3) != 0) {
                 imageAddress.className = null;
                 sectionID.style.backgroundColor = colors[m_index];
             }
-            else if(imageAddress.className == 'resize' && m_index % 3 == 0) {
+            else if(imageAddress.className == 'resize' && ((m_index+1) % 3) == 0) {
                 imageAddress.className = "star";
                 sectionID.style.backgroundColor = colors[m_index];   
             }
@@ -31,7 +31,6 @@ function addRect(main) { // This function adds another rectangle
     newElement.className = "block";
     newElement.style.backgroundColor = color;
     colors.push(color);
-    console.log(newElement);
     main.appendChild(newElement);
     if(!i) {
         divPlus.className = "plus";
@@ -39,7 +38,7 @@ function addRect(main) { // This function adds another rectangle
         newElement.appendChild(divPlus);
         return 0;
     }
-    if(i%3 == 0 && i != 0) {
+    if((i+1)%3 == 0 && i != 0) {
         divPlus.className = "star";
         document.getElementById(idInitial).appendChild(divPlus);
     }
