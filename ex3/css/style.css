@@ -18,21 +18,12 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
-#layout3 #wrapper {
+#wrapper {
     margin: 0px auto;
     width: 1000px;
     position: relative;
 }
-#layout1 #wrapper {
-    margin: 0px auto;
-    width: 1000px;
-    position: relative;
-}
-#layout2 #wrapper {
-    margin: 0px auto;
-    width: 1000px;
-    position: relative;
-}
+
 #logo {
     background-image: url('../images/logo.png');
     width: 90px;
@@ -275,10 +266,10 @@ div.g1 {
 }
 .plus {
     background-image: url('../images/plus.png');
-    width:200px;
-    height:200px;
+    width:80px;
+    height:80px;
     margin:0 auto;
-    margin-top:20%;
+    margin-top:120px;
 }
 .star {
     background-image: url('../images/star.png');
