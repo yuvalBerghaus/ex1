@@ -9,25 +9,26 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
 
-<body>
+<body onload="addValueHide()">
 
     <div class="container pt-3">
         <h1 class="display-1">Article page</h1>
-        <form action="/ex4/get_article.php">
+        <form action="http://se.shenkar.ac.il/students/2020-2021/web1/dev_27/exercises/ex4/get_article.php">
             <div class="form-group">
-                <label for="usr">Article title:</label>
-                <input type="text" class="form-control" id="title" name="title">
+                <label for="usr">Title:</label>
+                <input type="text" class="form-control" id="title" name="title" minlength="6" required>
             </div>
             <div class="form-group">
-                <label for="comment">Comment:</label>
-                <textarea class="form-control" rows="5" id="content" name="content"></textarea>
+                <label for="comment">Content:</label>
+                <textarea class="form-control" rows="5" id="content" name="content" minlength="20" required></textarea>
             </div>
-            <input type="submit" class="btn btn-primary"></button>
+            <input type="submit" class="btn btn-primary">
+            <input type="hidden" id="dateId" name="date">
         </form>
     </div>
-
 </body>
 
 </html>

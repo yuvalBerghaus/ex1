@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Article</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -12,15 +12,18 @@
 <body>
 
 <div class="container mt-3">
-  <h2>Media Object</h2>
-  <p>Create a media object with the .media and .media-body classes:</p>
+  <h2>My current News</h2>
   <div class="media border p-3">
-    <img src="img_avatar3.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+    <img src="images/img_avatar3.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
     <div class="media-body">
       <h4><?php 
       echo $_GET["title"];
-      ?><small><i>Posted on February 19, 2016</i></small></h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+      ?><small><i> Posted on <?php
+      echo $_GET["date"];
+      ?></i></small></h4>
+      <p><?php
+      echo $_GET["content"];
+      ?></p>    
     </div>
   </div>
 </div>
