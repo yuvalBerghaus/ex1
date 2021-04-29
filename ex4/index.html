@@ -20,76 +20,79 @@
         </header>
     </div>
     <div class="container-xl">
-        <form action="http://se.shenkar.ac.il/teach/web1/2021/get_form3.php" method="get" onsubmit="return check()"
-            id="myForm">
-            <label for="fullName1">
-                Full Name: </label><input type="text" name="fullName" id="fullName1" placeholder="Full name"
-                pattern="^[^\s]+( [^\s]+)+$">
-            </label>
-            <br>
-            <label>
-                Password: <input type="password" name="pass" minlength="9" maxlength="10">
-            </label>
-            <br>
-            <label>Email:
-                <input type="email" name="mail">
-            </label><br>
-            <label>
-                Website:
-                <input type="url" name="website">
-            </label>
-            <br>
-            <label>
-                Phone:
-                <input type="tel" name="phone" id="tel" pattern="^[0-9]*$" minlength="9" maxlength="10" />
-            </label>
-            <br>
-            <label for="coffee1">
-                Coffee:
-                <input type="number" name="coffee">
-            </label>
-            <br>
-            <label>
-                Temperature:
-                <input type="range" name="temper">
-            </label>
-            <br>
-            <label for="address1">
-                Address:<br>
-                <textarea rows="3" cols="30" name="address"></textarea>
-            </label>
-            <br>
-            <span>
-                Interests:
-            </span>
-            <section id="checks">
-                <script>
-                    window.onload = new init;
-                </script>
-            </section>
-            <br>
-            <span>
-                Gender:
-            </span>
-            <br>
-            <label>
-                Male:<input type="radio" name="gender" value="male">
-            </label>
-            <br>
-            <label>
-                Female:<input type="radio" name="gender" value="male">
-            </label>
-            <br>
-            <label for="age1">
-                Age:<br>
-                <select name="age" id="age1" class="custom-select custom-select-sm mb-3" required>
+        <main>
+            <form action="http://se.shenkar.ac.il/teach/web1/2021/get_form3.php" method="get" onsubmit="return check()"
+                id="myForm">
+                <label for="fullName1">
+                    Full Name: </label><input type="text" name="fullName" id="fullName1" placeholder="Full name"
+                    pattern="^[^\s]+( [^\s]+)+$">
+                </label>
+                <br>
+                <label>
+                    Password: <input type="password" name="pass" minlength="9" maxlength="10"
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
+                </label>
+                <br>
+                <label>Email:
+                    <input type="email" name="mail">
+                </label><br>
+                <label>
+                    Website:
+                    <input type="url" name="website">
+                </label>
+                <br>
+                <label>
+                    Phone:
+                    <input type="tel" name="phone" id="tel" pattern="^[0-9]*$" minlength="9" maxlength="10" />
+                </label>
+                <br>
+                <label for="coffee1">
+                    Coffee:
+                    <input type="number" name="coffee">
+                </label>
+                <br>
+                <label>
+                    Temperature:
+                    <input type="range" name="temper">
+                </label>
+                <br>
+                <label for="address1">
+                    Address:<br>
+                    <textarea rows="3" cols="30" name="address"></textarea>
+                </label>
+                <br>
+                <span>
+                    Interests:
+                </span>
+                <section id="checks">
                     <script>
-                        window.onload = new ageRange;
+                        window.onload = new init;
                     </script>
-                </select>
-            </label><br>
-            <input type="submit" class="btn btn-primary" value="Send form"><br>
-        </form>
+                </section>
+                <br>
+                <span>
+                    Gender:
+                </span>
+                <br>
+                <label>
+                    Male:<input type="radio" name="gender" value="male">
+                </label>
+                <br>
+                <label>
+                    Female:<input type="radio" name="gender" value="male">
+                </label>
+                <br>
+                <label for="age1">
+                    Age:<br>
+                    <select name="age" id="age1" class="custom-select custom-select-sm mb-3" required>
+                        <script>
+                            window.onload = new ageRange;
+                        </script>
+                    </select>
+                </label><br>
+                <input type="submit" class="btn btn-primary" value="Send form"><br>
+            </form>
+        </main>
     </div>
 </body>
 

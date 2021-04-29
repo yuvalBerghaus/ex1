@@ -12,9 +12,11 @@
 <body>
 
 <div class="container mt-3">
-  <h2>My current News</h2>
+<header>
+<h2>My current News</h2>
+</header>
+<main>
   <div class="media border p-3">
-    <img src="images/img_avatar3.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
     <div class="media-body">
       <h4><?php 
       echo $_GET["title"];
@@ -26,6 +28,7 @@
       ?></p>    
     </div>
   </div>
+  </main>
 </div>
 
 </body>
